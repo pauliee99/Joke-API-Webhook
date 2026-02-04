@@ -16,3 +16,14 @@ Formatted response
    ↓
 Moveo Chatbot displays joke
 ```
+   
+## 2. Technology Stack  
+
+| Component       | Technology                                       |
+| --------------- | ------------------------------------------------ |
+| Hosting         | Vercel (Serverless Functions)                    |
+| Language        | Python 3.12                                      |
+| Framework       | Flask                                            |
+| External API    | [https://v2.jokeapi.dev](https://v2.jokeapi.dev) |
+| Bot Platform    | Moveo AI                                         |
+| Deployment Type | API (serverless)                                 |
