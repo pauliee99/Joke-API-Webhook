@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/joke.py",
+      "src": "api/joke_api.py",
       "use": "@vercel/python"
     }
   ],
@@ -10,7 +10,7 @@
     {
       "src": "/moveo/joke",
       "methods": ["POST"],
-      "dest": "api/joke.py"
+      "dest": "api/joke_api.py"
     }
   ]
 }
