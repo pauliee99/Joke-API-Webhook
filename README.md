@@ -1,4 +1,4 @@
-<img width="1564" height="757" alt="image" src="https://github.com/user-attachments/assets/6b367588-84ca-4a58-aa63-fa6b477b82bf" />﻿# Joke-API-Webhook
+﻿# Joke-API-Webhook
 
 ## 1. Overview 
 This project implements a serverless webhook API that delivers jokes to a Moveo AI chatbot.
@@ -99,3 +99,4 @@ All steps described below are supported by screenshots, which are provided along
 ✅ The API is live and functional
 ✅ The Moveo agent is correctly configured
 ❌ Joke responses are not being parsed in the Moveo UI
+
