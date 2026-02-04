@@ -25,7 +25,7 @@ def moveo_joke():
             "responses": [
                 {
                     "type": "text",
-                    "text": message_text
+                    "message": message_text
                 }
             ],
             "context": {}
@@ -36,7 +36,7 @@ def moveo_joke():
             "responses": [
                 {
                     "type": "text",
-                    "text": "😅 Something went wrong while getting the joke."
+                    "message": "😅 Something went wrong while getting the joke."
                 }
             ],
             "context": {}
