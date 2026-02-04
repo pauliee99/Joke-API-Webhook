@@ -11,6 +11,11 @@
       "src": "/moveo/joke",
       "methods": ["POST"],
       "dest": "api/joke_api.py"
+    },
+    {
+      "src": "/",
+      "methods": ["GET"],
+      "dest": "api/joke_api.py"
     }
   ]
 }
