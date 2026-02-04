@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/joke.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/moveo/joke",
+      "methods": ["POST"],
+      "dest": "api/joke.py"
+    }
+  ]
+}
