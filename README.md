@@ -95,8 +95,7 @@ All steps described below are supported by screenshots, which are provided along
 
 ## Conclusion
 
-✅ The webhook is correctly implemented
-✅ The API is live and functional
-✅ The Moveo agent is correctly configured
-❌ Joke responses are not being parsed in the Moveo UI
-
+✅ The webhook is correctly implemented   
+✅ The API is live and functional  
+✅ The Moveo agent is correctly configured  
+❌ Joke responses are not being parsed in the Moveo UI  
