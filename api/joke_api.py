@@ -3,6 +3,10 @@ import requests
 
 app = Flask(__name__)
 
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify({"message": "Welcome to the joke API!"})
+
 @app.route("/moveo/joke", methods=["POST"])
 def moveo_joke():
     try:
