@@ -24,12 +24,15 @@ def moveo_joke():
         return jsonify({
             "responses": [
                 {
-                    "type": "text",
-                    "message": message_text
+                    "type": "message",
+                    "payload": {
+                        "text": message_text
+                    }
                 }
             ],
             "context": {}
         })
+
 
     except Exception as e:
         return jsonify({
